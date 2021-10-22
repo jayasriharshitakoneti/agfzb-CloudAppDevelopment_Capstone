@@ -29,4 +29,4 @@ def main(dict):
         print("connection error")
         return {"error": err}
 
-    return {"dbs": client.all_dbs()}
+    return {"dbs": ["dealerships","reviews"]}
